@@ -1,0 +1,19 @@
+{
+  "name": "@h-element/play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5"
+  },
+  "dependencies": {
+    "@h-element/components": "workspace:^1.0.0"
+  }
+}
