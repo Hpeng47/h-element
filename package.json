@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "pnpm -C play dev"
+    "dev": "pnpm -C play dev",
+    "build": "pnpm -C internal/build start",
+    "docs:dev": "pnpm -C docs dev",
+    "docs:build": "pnpm -C docs build",
+    "docs:preview": "pnpm -C docs preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.14.10",
     "vite": "^5.3.3",
     "vue": "^3.4.31"
   }
